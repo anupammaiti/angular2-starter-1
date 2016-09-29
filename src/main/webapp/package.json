@@ -1,0 +1,39 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "@angular/common":  "~2.0.1",
+    "@angular/compiler":  "~2.0.1",
+    "@angular/core":  "~2.0.1",
+    "@angular/forms": "~2.0.1",
+    "@angular/http":  "~2.0.1",
+    "@angular/platform-browser":  "~2.0.1",
+    "@angular/platform-browser-dynamic":  "~2.0.1",
+    "@angular/router":  "~3.0.1",
+    "@angular/upgrade":  "~2.0.1",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "systemjs": "0.19.39",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "canonical-path": "0.0.2",
+    "tslint": "^3.15.1",
+    "lodash": "^4.16.2",
+    "rimraf": "^2.5.4"
+  },
+  "repository": {}
+}

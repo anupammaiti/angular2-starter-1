@@ -1,0 +1,9 @@
+.DS_Store
+target/
+build/
+src/main/webapp/node_modules/**
+src/main/webapp/typings/**
+.mvn/**
+.idea/**
+*.iml
+src/main/resources/application.yml
