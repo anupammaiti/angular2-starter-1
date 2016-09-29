@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {enableProdMode} from '@angular/core';
 import {ResponseService} from "../services/response.service";
-import {Response} from "../dto/Response";
+import {Response} from "../dto/response";
 
 //enableProdMode();
 
