@@ -7,5 +7,5 @@ src/main/webapp/typings/**
 .idea/**
 *.iml
 src/main/resources/application.yml
-src/main/webapp/app/**.js
-src/main/webapp/app/**.js.map
+src/main/webapp/app/**/*.js
+src/main/webapp/app/**/*.js.map
