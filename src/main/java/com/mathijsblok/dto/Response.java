@@ -3,19 +3,11 @@ package com.mathijsblok.dto;
 public class Response {
 
     private int status;
-    private String message;
+    private Object content;
 
-    public Response(int status, String message){
+    public Response(int status, Object message){
         this.status = status;
-        this.message = message;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
+        this.content = message;
     }
 
     public int getStatus() {
@@ -24,5 +16,13 @@ public class Response {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public Object getContent() {
+        return content;
+    }
+
+    public void setContent(Object content) {
+        this.content = content;
     }
 }

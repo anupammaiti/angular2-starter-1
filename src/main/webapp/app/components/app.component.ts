@@ -11,18 +11,9 @@ import {Response} from "../dto/response";
 })
 export class AppComponent implements OnInit{
 
-    private response: Response;
-
     constructor(
-        private responeService: ResponseService
     ){}
 
     ngOnInit(): void {
-        this.getResponse();
-    }
-
-    getResponse(): void {
-        this.responeService.getResponse()
-            .then(response => this.response = response);
     }
 }
